@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Xz0f50G0tm4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USUARIO\\RiderProjects\\PMT - Param Merge Tool\\PMT - Param Merge Tool\\PMT - Param Merge Tool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\drswizzler\\1.1.1\\drswizzler.1.1.1.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\zstdnet\\1.4.5\\zstdnet.1.4.5.nupkg.sha512"
+  ],
+  "logs": []
+}

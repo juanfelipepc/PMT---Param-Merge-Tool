@@ -1,0 +1,24 @@
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\x64\libzstd.dll
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\x86\libzstd.dll
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\PMT - Param Merge Tool.exe
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\PMT - Param Merge Tool.deps.json
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\PMT - Param Merge Tool.runtimeconfig.json
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\PMT - Param Merge Tool.dll
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\PMT - Param Merge Tool.pdb
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\BouncyCastle.Cryptography.dll
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\DrSwizzler.dll
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\ZstdNet.dll
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\SoulsFormats.dll
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\SoulsFormats.pdb
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\bin\Debug\net10.0\SoulsFormats.xml
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\obj\Debug\net10.0\PMT - Param Merge Tool.csproj.AssemblyReference.cache
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\obj\Debug\net10.0\PMT - Param Merge Tool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\obj\Debug\net10.0\PMT - Param Merge Tool.AssemblyInfoInputs.cache
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\obj\Debug\net10.0\PMT - Param Merge Tool.AssemblyInfo.cs
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\obj\Debug\net10.0\PMT - Param Merge Tool.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\obj\Debug\net10.0\PMT - Pa.C49E6FC8.Up2Date
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\obj\Debug\net10.0\PMT - Param Merge Tool.dll
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\obj\Debug\net10.0\refint\PMT - Param Merge Tool.dll
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\obj\Debug\net10.0\PMT - Param Merge Tool.pdb
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\obj\Debug\net10.0\PMT - Param Merge Tool.genruntimeconfig.cache
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT - Param Merge Tool\obj\Debug\net10.0\ref\PMT - Param Merge Tool.dll

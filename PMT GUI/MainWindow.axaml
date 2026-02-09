@@ -1,0 +1,53 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:PMT_GUI"
+        x:Class="PMT_GUI.MainWindow"
+        Width="900" Height="600"
+        Title="Dark Souls Remastered Param Merge Tool">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Mod list -->
+        <Border BorderBrush="Gray" BorderThickness="1" Margin="5" Grid.Column="0">
+            <DockPanel>
+                <!-- Header row -->
+                <DockPanel DockPanel.Dock="Top" Margin="5">
+                     <TextBlock Text="Mod list" DockPanel.Dock="Left" FontWeight="Bold" VerticalAlignment="Center"/> 
+                     <Button x:Name="UpdateModsButton" Content="Update" DockPanel.Dock="Right" HorizontalAlignment="Right"/>
+                </DockPanel>
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <ItemsControl x:Name="ModListBox" Margin="5">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="local:ModEntry">
+                                <CheckBox Content="{Binding Name}" IsChecked="{Binding IsChecked}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+            </DockPanel>
+        </Border>
+
+        <!-- Right side -->
+        <StackPanel Grid.Column="1" Margin="5">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="SetGameFolderButton" Content="Set Game Folder" Margin="5"/>
+                <Button x:Name="SetModsFolderButton" Content="Set Mods Folder" Margin="5"/>
+                <Button x:Name="StartButton" Content="Start" Margin="5"/>
+            </StackPanel>
+
+            <Border BorderBrush="Gray" BorderThickness="1" Margin="5" VerticalAlignment="Stretch">
+                <DockPanel LastChildFill="True">
+                    <TextBlock Text="Console" DockPanel.Dock="Top" FontWeight="Bold" Margin="5"/>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <TextBox x:Name="ConsoleBox" AcceptsReturn="True" IsReadOnly="True"
+                                 TextWrapping="Wrap" Margin="5"/>
+                    </ScrollViewer>
+                </DockPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>
