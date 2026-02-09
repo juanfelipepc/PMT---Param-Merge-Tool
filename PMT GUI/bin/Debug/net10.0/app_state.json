@@ -1,0 +1,62 @@
+{
+  "GameFolderPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\DARK SOULS REMASTERED",
+  "ModsFolderPath": "D:\\Dark Souls Mods\\DSR Mods\\Mine",
+  "Mods": [
+    {
+      "Name": "Better Resin",
+      "IsChecked": true
+    },
+    {
+      "Name": "Cheaper Shops",
+      "IsChecked": false
+    },
+    {
+      "Name": "Comfort Buff",
+      "IsChecked": true
+    },
+    {
+      "Name": "Comfy Souls - Chill Overhaul",
+      "IsChecked": true
+    },
+    {
+      "Name": "Easy Weapons",
+      "IsChecked": false
+    },
+    {
+      "Name": "Illuminated Catacombs and Tomb of the Giants",
+      "IsChecked": true
+    },
+    {
+      "Name": "Intelligent Pyromancy",
+      "IsChecked": true
+    },
+    {
+      "Name": "Like a Feather",
+      "IsChecked": true
+    },
+    {
+      "Name": "Offline Covenants",
+      "IsChecked": false
+    },
+    {
+      "Name": "Titanite Rain",
+      "IsChecked": true
+    },
+    {
+      "Name": "Upgrades Unleashed",
+      "IsChecked": true
+    },
+    {
+      "Name": "Weapon Enchants",
+      "IsChecked": true
+    },
+    {
+      "Name": "WIP - No Respawns",
+      "IsChecked": true
+    },
+    {
+      "Name": "WIP - Restrictive Classes",
+      "IsChecked": true
+    }
+  ]
+}

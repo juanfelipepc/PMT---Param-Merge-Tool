@@ -12,8 +12,7 @@ namespace PMT_GUI
         private string gameFolderPath;
         private string modsFolderPath;
         private List<ModEntry> currentMods = new List<ModEntry>();
-
-        private string stateFilePath => Path.Combine(AppContext.BaseDirectory, "mods_state.json");
+        private string stateFilePath => Path.Combine(AppContext.BaseDirectory, "app_state.json");
 
         public MainWindow()
         {
@@ -100,9 +99,16 @@ namespace PMT_GUI
         {
             try
             {
-                var json = JsonSerializer.Serialize(currentMods);
+                var state = new AppState
+                {
+                    GameFolderPath = gameFolderPath,
+                    ModsFolderPath = modsFolderPath,
+                    Mods = currentMods
+                };
+
+                var json = JsonSerializer.Serialize(state, new JsonSerializerOptions { WriteIndented = true });
                 File.WriteAllText(stateFilePath, json);
-                Log("Saved mod checkbox state.");
+                Log("Saved app state.");
             }
             catch (Exception ex)
             {
@@ -117,9 +123,19 @@ namespace PMT_GUI
                 if (File.Exists(stateFilePath))
                 {
                     var json = File.ReadAllText(stateFilePath);
-                    currentMods = JsonSerializer.Deserialize<List<ModEntry>>(json) ?? new List<ModEntry>();
-                    ModListBox.ItemsSource = currentMods;
-                    Log("Loaded mod checkbox state.");
+                    var state = JsonSerializer.Deserialize<AppState>(json);
+
+                    if (state != null)
+                    {
+                        gameFolderPath = state.GameFolderPath;
+                        Log($"Game folder loaded: {gameFolderPath}.");
+                        modsFolderPath = state.ModsFolderPath;
+                        Log($"Mods folder loaded: {modsFolderPath}.");
+                        currentMods = state.Mods ?? new List<ModEntry>();
+
+                        ModListBox.ItemsSource = currentMods;
+                        Log("Loaded app state.");
+                    }
                 }
             }
             catch (Exception ex)
@@ -127,6 +143,7 @@ namespace PMT_GUI
                 Log("Error loading state: " + ex.Message);
             }
         }
+
     }
 
     public class ModEntry
@@ -134,4 +151,12 @@ namespace PMT_GUI
         public string Name { get; set; }
         public bool IsChecked { get; set; }
     }
+    
+    public class AppState
+    {
+        public string GameFolderPath { get; set; }
+        public string ModsFolderPath { get; set; }
+        public List<ModEntry> Mods { get; set; } = new();
+    }
+
 }

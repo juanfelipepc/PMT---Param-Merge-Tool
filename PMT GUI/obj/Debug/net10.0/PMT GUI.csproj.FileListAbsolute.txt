@@ -71,3 +71,4 @@ C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT GUI\obj\Debug\net10.0\
 C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT GUI\obj\Debug\net10.0\PMT GUI.pdb
 C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT GUI\obj\Debug\net10.0\PMT GUI.genruntimeconfig.cache
 C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT GUI\obj\Debug\net10.0\ref\PMT GUI.dll
+C:\Users\USUARIO\RiderProjects\PMT - Param Merge Tool\PMT GUI\obj\Debug\net10.0\PMT GUI.sourcelink.json
